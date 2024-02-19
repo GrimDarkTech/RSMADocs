@@ -1,5 +1,5 @@
 # AutoDocs
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMARangeFinderBase.cs.md)
+[switch to API](../../../Documentation/ScriptingAPI/en/.md)
 
 Generates docfx-like documentation file via markdown format
 
@@ -39,7 +39,7 @@ Returns:
 Returns: 
 
 # es
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMARangeFinderBase.cs.md)
+[switch to API](../../../Documentation/ScriptingAPI/en/.md)
 
 
 
