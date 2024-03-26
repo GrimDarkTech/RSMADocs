@@ -38,6 +38,19 @@ Loads a scene by the name of the scene
 
 ---
 
+
+### marker
+Creates a marker at the specified point
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|name|The name of the marker. Available in: Blue, Red, Green|```marker Blue 0 0 0```|
+|x|The X-axis position in meters where the new marker will appear|```scene load SupremeFlat```|
+|y|The Y-axis position in meters where the new marker will appear|```scene load SupremeFlat```|
+|z|The Z-axis position in meters where the new marker will appear|```scene load SupremeFlat```|
+
+---
+
 ### drone
 Creates a new drone
 #### Arguments:
