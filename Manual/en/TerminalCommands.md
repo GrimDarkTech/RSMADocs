@@ -38,16 +38,32 @@ Loads a scene by the name of the scene
 
 ---
 
-
 ### marker
 Creates a marker at the specified point
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
 |name|The name of the marker. Available in: Blue, Red, Green|```marker Blue 0 0 0```|
-|x|The X-axis position in meters where the new marker will appear|```scene load SupremeFlat```|
-|y|The Y-axis position in meters where the new marker will appear|```scene load SupremeFlat```|
-|z|The Z-axis position in meters where the new marker will appear|```scene load SupremeFlat```|
+|x|The X-axis position in meters where the new marker will appear|```marker Red 1,2 0 0```|
+|y|The Y-axis position in meters where the new marker will appear|```marker Red 0 5 0```|
+|z|The Z-axis position in meters where the new marker will appear|```marker Red 0 0 7,3```|
+
+---
+
+
+### wall
+Creates a wall with the specified parameters
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|start x|The X-axis position in meters where does the wall begins|```wall 2 0 0 0 0 1 1 1```|
+|start y|The Y-axis position in meters where does the wall begins|```wall 0 2 0 0 0 1 1 1```|
+|start z|The Z-axis position in meters where does the wall begins|```wall 0 0 2 0 0 1 1 1```|
+|end x|The X-axis position in meters where does the wall ends|```wall 0 0 1 2 0 0 1 1```|
+|end y|The Y-axis position in meters where does the wall ends|```wall 0 0 1 0 2 0 1 1```|
+|end z|The Z-axis position in meters where does the wall ends|```wall 0 0 1 0 0 2 1 1```|
+|height|Wall height in meters|```wall 0 0 1 0 0 2 1,2 1```|
+|width|Wall width in meters|```wall 0 0 1 0 0 2 1 0,5```|
 
 ---
 
