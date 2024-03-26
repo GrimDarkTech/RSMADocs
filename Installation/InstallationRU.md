@@ -67,6 +67,6 @@ git clone https://github.com/kms0207/RSMA
 
 ## Запуск RSMA
 
-Для запуска RSMA необходимо добавить проект в UnityHub
+Для запуска RSMA необходимо добавить проект в UnityHub, указав директорию с проектом.
 ![image](https://github.com/kms0207/RSMA/assets/75982005/ddcf73d8-f6bf-4914-af2a-e708a855d6b3)
 
