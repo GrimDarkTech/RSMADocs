@@ -29,6 +29,15 @@ Manages the built-in RSMA server for connecting clients via the RSMA API.
 
 ---
 
+### scene
+Loads a scene by the name of the scene
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|load|Loads a scene by the name|```scene load SupremeFlat```|
+
+---
+
 ### drone
 Creates a new drone
 #### Arguments:
