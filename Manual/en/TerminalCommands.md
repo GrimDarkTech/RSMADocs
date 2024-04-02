@@ -150,6 +150,25 @@ Enables/disables manual drone control
 |mode|True - enables; False - disables|```drone_manual_control 0 False```|
 
 ---
+
+### writer_start
+Starts a Writer that writes data about the object's position to a CSV file
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_start 0``|
+
+---
+
+### writer_stop
+Stops the writer writing data about the object's position to a CSV file
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_stop 0``|
+
+---
+
 ### template
 Description of the command.
 #### Arguments:
