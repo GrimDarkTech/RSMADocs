@@ -73,6 +73,10 @@ scene_load name
 
 ### marker
 Creates a marker at the specified point
+#### Template:
+```
+marker name x y z
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -85,15 +89,19 @@ Creates a marker at the specified point
 
 ### wall
 Creates a wall with the specified parameters
+#### Template:
+```
+wall name start_x start_y start_z end_x end_y end_z height width
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|start x|The X-axis position in meters where does the wall begins|```wall 2 0 0 0 0 1 1 1```|
-|start y|The Y-axis position in meters where does the wall begins|```wall 0 2 0 0 0 1 1 1```|
-|start z|The Z-axis position in meters where does the wall begins|```wall 0 0 2 0 0 1 1 1```|
-|end x|The X-axis position in meters where does the wall ends|```wall 0 0 1 2 0 0 1 1```|
-|end y|The Y-axis position in meters where does the wall ends|```wall 0 0 1 0 2 0 1 1```|
-|end z|The Z-axis position in meters where does the wall ends|```wall 0 0 1 0 0 2 1 1```|
+|start_x|The X-axis position in meters where does the wall begins|```wall 2 0 0 0 0 1 1 1```|
+|start_y|The Y-axis position in meters where does the wall begins|```wall 0 2 0 0 0 1 1 1```|
+|start_z|The Z-axis position in meters where does the wall begins|```wall 0 0 2 0 0 1 1 1```|
+|end_x|The X-axis position in meters where does the wall ends|```wall 0 0 1 2 0 0 1 1```|
+|end_y|The Y-axis position in meters where does the wall ends|```wall 0 0 1 0 2 0 1 1```|
+|end_z|The Z-axis position in meters where does the wall ends|```wall 0 0 1 0 0 2 1 1```|
 |height|Wall height in meters|```wall 0 0 1 0 0 2 1,2 1```|
 |width|Wall width in meters|```wall 0 0 1 0 0 2 1 0,5```|
 
@@ -101,6 +109,10 @@ Creates a wall with the specified parameters
 
 ### robot
 Adds a robot to the scene
+#### Template:
+```
+robot name x y z rx ry rz
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -116,6 +128,10 @@ Adds a robot to the scene
 
 ### gpio_write
 Sets the value of the GPIO port pin
+#### Template:
+```
+gpio_write id port pin value
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -128,6 +144,10 @@ Sets the value of the GPIO port pin
 
 ### gpio_read
 Reads the value of the GPIO port pin
+#### Template:
+```
+gpio_read id port pin
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -139,6 +159,10 @@ Reads the value of the GPIO port pin
 
 ### drone
 Creates a new drone
+#### Template:
+```
+drone x y z
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -150,6 +174,10 @@ Creates a new drone
 
 ### drone_move
 Sets the direction and magnitude of the drone thrust and yaw
+#### Template:
+```
+drone_move id x y z yaw
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -163,6 +191,10 @@ Sets the direction and magnitude of the drone thrust and yaw
 
 ### drone_camera
 Rotates the drone's camera at preset angles with a preset smoothness
+#### Template:
+```
+drone_move id x y z smooth
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -176,6 +208,10 @@ Rotates the drone's camera at preset angles with a preset smoothness
 
 ### drone_manual_control
 Enables/disables manual drone control
+#### Template:
+```
+drone_manual_control id mode
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -186,6 +222,10 @@ Enables/disables manual drone control
 
 ### writer_start
 Starts a Writer that writes data about the object's position to a CSV file
+#### Template:
+```
+writer_start id
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
@@ -195,6 +235,10 @@ Starts a Writer that writes data about the object's position to a CSV file
 
 ### writer_stop
 Stops the writer writing data about the object's position to a CSV file
+#### Template:
+```
+writer_stop id
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
