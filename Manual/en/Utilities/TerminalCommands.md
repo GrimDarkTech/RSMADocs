@@ -2,7 +2,7 @@
 
 Commands are handled by the __CommandHandler__ class.
 You can send a command for execution via the RSMA-API or the built-in RSMA terminal.  
-Each command consists of a name and arguments separated by spaces.  
+Each command consists of a name and arguments **separated by spaces**.  
 Command example:  
 _command argument1 argument2_
 
