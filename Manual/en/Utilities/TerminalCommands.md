@@ -10,31 +10,64 @@ _command argument1 argument2_
 
 ### shutdown
 Terminates the RSMA process and closes the application
+#### Template:
+```
+shutdown
+```
 
 ---
 
 ### help
 Automatically opens a link to this page and returns a link to the repository with documentation to RSMA
+#### Template:
+```
+help
+```
 
 ---
 
-### server
-Manages the built-in RSMA server for connecting clients via the RSMA API.
+### server_start
+Starts the built-in RSMA server for connecting clients via the RSMA API.
+#### Template:
+```
+server_start
+```
+
+---
+
+### server_stop
+Stops the built-in RSMA server for connecting clients via the RSMA API.
+#### Template:
+```
+server_stop
+```
+
+---
+
+### server_send
+Sends a message to the client connected to the server via the RSMA API.
+#### Template:
+```
+server_send client message
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|start|Starts the RSMA server. Uses port 7777|```server start```|
-|stop|Stops the server|```server stop```|
-|send|Sends a message to the connected client by the client's name|```server send Tod Hey_Tod!```|
+|client|Client name|```server_send Tota UwU```|
+|message|Message text|```server_send Tota Let's_dance```|
 
 ---
 
-### scene
+### scene_load
 Loads a scene by the name of the scene
+#### Template:
+```
+scene_load name
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|load|Loads a scene by the name|```scene load SupremeFlat```|
+|name|Scene name|```scene_load SupremeFlat```|
 
 ---
 
@@ -156,7 +189,7 @@ Starts a Writer that writes data about the object's position to a CSV file
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_start 0``|
+|id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_start 0```|
 
 ---
 
@@ -165,12 +198,16 @@ Stops the writer writing data about the object's position to a CSV file
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_stop 0``|
+|id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_stop 0```|
 
 ---
 
 ### template
 Description of the command.
+#### Template:
+```
+template
+```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
