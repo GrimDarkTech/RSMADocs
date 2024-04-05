@@ -238,6 +238,19 @@ drone_move id x y z kp ki kd
 
 ---
 
+### drone_switch_camera
+Switches the camera by drone ID
+#### Template:
+```
+drone_switch_camera id
+```
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The drone's ID. By default, there is a drone with ID 0 on the stage|```drone_switch_camera 0```|
+
+---
+
 ### writer_start
 Starts a Writer that writes data about the object's position to a CSV file
 #### Template:
