@@ -172,20 +172,19 @@ drone x y z
 
 ---
 
-### drone_move
-Sets the direction and magnitude of the drone thrust and yaw
+### drone_acceleration
+Sets the direction and magnitude of the drone acceleration
 #### Template:
 ```
-drone_move id x y z yaw
+drone_acceleration id x y z
 ```
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|id|The drone's ID. By default, there is a drone with ID 0 on the stage|```drone_move 5 0 0 0 45```|
-|x|The magnitude of the acceleration in the direction X (right) in m/s ^2|```drone_move 0 1,2 0 0 0```|
-|y|The magnitude of the acceleration in the direction Y (up) in m/s ^2|```drone_move 0 0 -5 0 0```|
-|z|The magnitude of the acceleration in the direction Z (forward) in m/s ^2|```drone_move 0 0 0 1,2 0```|
-|yaw|Drone yaw. It is set relative to the direction of the cardinal directions|```drone_move 0 0 0 0 45```|
+|id|The drone's ID. By default, there is a drone with ID 0 on the stage|```drone_acceleration 5 0 0 0```|
+|x|The magnitude of the acceleration in the direction X (right) in m/s ^2|```drone_acceleration 0 1,2 0 0```|
+|y|The magnitude of the acceleration in the direction Y (up) in m/s ^2|```drone_acceleration 0 0 -5 0```|
+|z|The magnitude of the acceleration in the direction Z (forward) in m/s ^2|```drone_acceleration 0 0 0 1,2```|
 
 ---
 
@@ -193,7 +192,7 @@ drone_move id x y z yaw
 Rotates the drone's camera at preset angles with a preset smoothness
 #### Template:
 ```
-drone_move id x y z smooth
+drone_camera id x y z smooth
 ```
 #### Arguments:
 | Argument | Description | Example |
@@ -217,6 +216,25 @@ drone_manual_control id mode
 |--|--|--|
 |id|The drone's ID. By default, there is a drone with ID 0 on the stage|```drone_manual_control 0 True```|
 |mode|True - enables; False - disables|```drone_manual_control 0 False```|
+
+---
+
+### drone_move
+Controls the drone using a PID controller to move to the specified point
+#### Template:
+```
+drone_move id x y z kp ki kd
+```
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The drone's ID. By default, there is a drone with ID 0 on the stage|```drone_move 0 5 5 15 3 2.113 3.065```|
+|x|The position of the point on the X axis (right) in m|```drone_move 0 0 5 10 3 2.113 1.065```|
+|y|The position of the point on the Y axis (up) in m|```drone_move 0 0 5 10 3 2.513 4.565```|
+|z|The position of the point on the Z axis (forward) in m|```drone_move 0 5 5 15 0.6 1.55 5```|
+|kp|Proportional coefficient of the PID controller|```drone_move 0 1 1 1 2 0.5 0.5```|
+|ki| Integral coefficient of the PID controller;|```drone_move 0 1 1 1 0.5 0.2 0.5```|
+|kd|Differential coefficient of the PID controller;|```drone_move 0 1 1 1 0.5 0.5 0.9```|
 
 ---
 
