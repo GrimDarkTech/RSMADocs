@@ -1,4 +1,5 @@
 # Terminal Commands
+[Switch to Russian](../../../Manual/ru/Utilities/TerminalCommands.md)
 
 Commands are handled by the __CommandHandler__ class.
 You can send a command for execution via the RSMA-API or the built-in RSMA terminal.  
@@ -116,7 +117,7 @@ robot name x y z rx ry rz
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|name|The name of the robot. Available: DarkieBot_Altushka, DarkieBot_Skuf|```robot DarkieBot_Altushka 0 0,1 0 0 0 0```|
+|name|The name of the robot. Available: DarkieBot_Altushka, DarkieBot_Skuf, DarkieBot_Kitty|```robot DarkieBot_Altushka 0 0,1 0 0 0 0```|
 |x|The X-axis position in meters where the new robot will appear|```robot DarkieBot_Altushka 1 0,1 0 0 0 0```|
 |y|The Y-axis position in meters where the new robot will appear|```robot DarkieBot_Altushka 0 0,3 0 0 0 0```|
 |z|The Z-axis position in meters where the new robot will appear|```robot DarkieBot_Altushka 0 0,1 4 0 0 0```|
