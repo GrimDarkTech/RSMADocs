@@ -68,7 +68,7 @@ scene_load name
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|name|Scene name|```scene_load SupremeFlat```|
+|name|Scene name. Available scenes: Agrobot, SuspensionStand, SupremeFlat|```scene_load SupremeFlat```|
 
 ---
 

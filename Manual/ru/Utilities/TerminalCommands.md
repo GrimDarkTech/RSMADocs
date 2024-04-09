@@ -68,7 +68,7 @@ scene_load name
 #### Аргументы:
 | Аргумент | Описание | Пример |
 |--|--|--|
-|name|Имя сцены|```scene_load SupremeFlat```|
+|name|Имя сцены Доступные сцены: Agrobot, SuspensionStand, SupremeFlat|```scene_load SupremeFlat```|
 
 ---
 
