@@ -117,7 +117,7 @@ robot name x y z rx ry rz
 #### Arguments:
 | Argument | Description | Example |
 |--|--|--|
-|name|The name of the robot. Available: DarkieBot_Altushka, DarkieBot_Skuf, DarkieBot_Kitty|```robot DarkieBot_Altushka 0 0,1 0 0 0 0```|
+|name|The name of the robot. Available: DarkieBot_Altushka, DarkieBot_Skuf, DarkieBot_Kitty, DarkieBot_Petya|```robot DarkieBot_Altushka 0 0,1 0 0 0 0```|
 |x|The X-axis position in meters where the new robot will appear|```robot DarkieBot_Altushka 1 0,1 0 0 0 0```|
 |y|The Y-axis position in meters where the new robot will appear|```robot DarkieBot_Altushka 0 0,3 0 0 0 0```|
 |z|The Z-axis position in meters where the new robot will appear|```robot DarkieBot_Altushka 0 0,1 4 0 0 0```|
@@ -275,6 +275,19 @@ writer_stop id
 | Argument | Description | Example |
 |--|--|--|
 |id|The ID of the writer. Each robot is equipped with a writer. The ID matches the robot's ID|```writer_stop 0```|
+
+---
+
+### controller_position
+Reads the robot's controller position. The value is captured and saved by **RSMAClient** to the list **controllers**
+#### Template:
+```
+controller_position id
+```
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The ID of the robot.|```controller_position 0```|
 
 ---
 
