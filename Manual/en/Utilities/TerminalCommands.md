@@ -291,6 +291,32 @@ controller_position id
 
 ---
 
+### trails_start
+Starts rendering the robot's trails
+#### Template:
+```
+trails_start id
+```
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The ID of the writer. Each robot is equipped with trails. The ID matches the robot's ID|```trails_start 0```|
+
+---
+
+### trails_stop
+Stops rendering the robot's trails
+#### Template:
+```
+trails_stop id
+```
+#### Arguments:
+| Argument | Description | Example |
+|--|--|--|
+|id|The ID of the writer. Each robot is equipped with trails. The ID matches the robot's ID|```trails_stop 0```|
+
+---
+
 ### template
 Description of the command.
 #### Template:

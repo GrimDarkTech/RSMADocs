@@ -291,6 +291,32 @@ controller_position id
 
 ---
 
+### trails_start
+Запускает рендеринг следов робота
+#### Шаблон:
+```
+trails_start id
+```
+#### Аргументы:
+| Argument | Description | Example |
+|--|--|--|
+|id|ID робота|```trails_start 0```|
+
+---
+
+### trails_stop
+Останавливает рендеринг следов робота
+#### Шаблон:
+```
+trails_stop id
+```
+#### Аргументы:
+| Argument | Description | Example |
+|--|--|--|
+|id|ID робота|```trails_stop 0```|
+
+---
+
 #### template
 Описание команды
 #### Шаблон:
