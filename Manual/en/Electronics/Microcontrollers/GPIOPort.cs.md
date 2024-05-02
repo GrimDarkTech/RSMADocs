@@ -1,10 +1,35 @@
 # GPIOPort
-[switch to API](../../../Documentation/ScriptingAPI/en/GPIOPin.cs.md)
+[switch to API](../../../Documentation/ScriptingAPI/en/GPIOPort.cs.md)
 
-Implements properties and functionality of GPIO port
+
 
 ## Fields
 | Field | Description | Type |
 |--|--|--|
-|name|GPIO port name|string|
-|pins|List of GPIO port pins|List<GPIOPin>|
+|name|     GPIO port name|System.String|
+|pins|     List of GPIO port pins|System.Collections.Generic.List`1[GPIOPin]|
+## Methods
+### Equals
+
+#### Declaration:
+
+#### Returns:
+
+### GetHashCode
+
+#### Declaration:
+
+#### Returns:
+
+### GetType
+
+#### Declaration:
+
+#### Returns:
+
+### ToString
+
+#### Declaration:
+
+#### Returns:
+
