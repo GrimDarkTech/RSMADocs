@@ -1,20 +1,15 @@
-# RSMAEncoder
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMAEncoder.cs.md)
+# Encoder
+[switch to API](../../../Documentation/ScriptingAPI/en/Encoder.cs.md)
 
-
+ Simulates the operation of an absolute and incremental encoder with a built-in pulse counter.
 
 ## Fields
 | Field | Description | Type |
 |--|--|--|
-|EncoderTypeObj|     Defines the type of encoder used in the simulation|EncoderType|
-|EncoderRangeType| limits of the rotation|EncoderRangeType|
-|AxisDirection|     Determines which side the encoder will be located relative to the motor|AxisEnum|
-|OutPut|     Determines how much data the encoder transmits over the data transmitter|EncoderOutput|
-|AutoAxis|     to the motor     Automatic determination of the axis from which the encoder will be connected |System.Boolean|
-|Distance|     the distance can be negative and positive     At what distance from the object the encoder will be located|System.Single|
-|EncoderResolution|     shaft or bore.      output by the encoder during one 360 degree revolution of the encoder      Encoder resolution is the number of pulses per revolution (PPR) or bits |System.Single|
-|Shaft|     the object of the shaft that will spin together with the motor|UnityEngine.GameObject|
-|Motor|     Motor of the object under study|UnityEngine.HingeJoint|
+|type|     Type of device being modeled|RSMA.EncoderType|
+|resolution|     The resolution of the encoder. Number of pulses per revolution|System.Int32|
+|connectedBody|     Body connected to encoder shaft|UnityEngine.GameObject|
+|axis|     Represents the encoder axis, emanating from origin|UnityEngine.Vector3|
 ## Properties
 | Property | Description | Type |
 |--|--|--|
@@ -41,36 +36,6 @@
 |name||System.String|
 |hideFlags||UnityEngine.HideFlags|
 ## Methods
-### GetVelocity
-     Get the speed of rotation of the shaft in degrees per second
-#### Declaration:
-    public float GetVelocity()
-#### Returns:
-
-### GetSide
-     2 - left side     1 - right side     0 - no side     Get the direction of the shaft
-#### Declaration:
-    public int GetSide()
-#### Returns:
-
-### GetHZ
-     Get the rotation frequency of the encoder shaft
-#### Declaration:
-    public string GetHZ()
-#### Returns:
-     
-### GetMeasureAngle
-     updates the data     Get the calculated step angle with which the encoder 
-#### Declaration:
-    public string GetMeasureAngle()
-#### Returns:
-
-### GetAngle
-     depends on the type of encoder     Get the angle of rotation of the encoder shaft, which 
-#### Declaration:
-    public float GetAngle()
-#### Returns:
-     
 ### SendData
 
 #### Declaration:
@@ -576,224 +541,6 @@
 #### Returns:
 
 ### get_particleSystem
-
-#### Declaration:
-
-#### Returns:
-
-### GetInstanceID
-
-#### Declaration:
-
-#### Returns:
-
-### GetHashCode
-
-#### Declaration:
-
-#### Returns:
-
-### Equals
-
-#### Declaration:
-
-#### Returns:
-
-### get_name
-
-#### Declaration:
-
-#### Returns:
-
-### set_name
-
-#### Declaration:
-
-#### Returns:
-
-### get_hideFlags
-
-#### Declaration:
-
-#### Returns:
-
-### set_hideFlags
-
-#### Declaration:
-
-#### Returns:
-
-### ToString
-
-#### Declaration:
-
-#### Returns:
-
-### GetType
-
-#### Declaration:
-
-#### Returns:
-
-# RSMAEncoderEditor
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMAEncoder.cs.md)
-
-
-
-## Properties
-| Property | Description | Type |
-|--|--|--|
-|target||UnityEngine.Object|
-|targets||UnityEngine.Object[]|
-|serializedObject||UnityEditor.SerializedObject|
-|name||System.String|
-|hideFlags||UnityEngine.HideFlags|
-## Methods
-### OnInspectorGUI
-
-#### Declaration:
-
-#### Returns:
-
-### get_target
-
-#### Declaration:
-
-#### Returns:
-
-### set_target
-
-#### Declaration:
-
-#### Returns:
-
-### get_targets
-
-#### Declaration:
-
-#### Returns:
-
-### get_serializedObject
-
-#### Declaration:
-
-#### Returns:
-
-### DrawDefaultInspector
-
-#### Declaration:
-
-#### Returns:
-
-### Repaint
-
-#### Declaration:
-
-#### Returns:
-
-### CreateInspectorGUI
-
-#### Declaration:
-
-#### Returns:
-
-### RequiresConstantRepaint
-
-#### Declaration:
-
-#### Returns:
-
-### DrawHeader
-
-#### Declaration:
-
-#### Returns:
-
-### HasPreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### GetPreviewTitle
-
-#### Declaration:
-
-#### Returns:
-
-### RenderStaticPreview
-
-#### Declaration:
-
-#### Returns:
-
-### OnPreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### OnInteractivePreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### OnPreviewSettings
-
-#### Declaration:
-
-#### Returns:
-
-### GetInfoString
-
-#### Declaration:
-
-#### Returns:
-
-### DrawPreview
-
-#### Declaration:
-
-#### Returns:
-
-### ReloadPreviewInstances
-
-#### Declaration:
-
-#### Returns:
-
-### UseDefaultMargins
-
-#### Declaration:
-
-#### Returns:
-
-### Initialize
-
-#### Declaration:
-
-#### Returns:
-
-### Cleanup
-
-#### Declaration:
-
-#### Returns:
-
-### MoveNextTarget
-
-#### Declaration:
-
-#### Returns:
-
-### ResetTarget
-
-#### Declaration:
-
-#### Returns:
-
-### SetDirty
 
 #### Declaration:
 
