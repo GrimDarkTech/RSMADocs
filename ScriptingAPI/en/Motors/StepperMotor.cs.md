@@ -1,26 +1,22 @@
-# RSMAStepperMotor
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMAStepperMotor.cs.md)
+# StepperMotor
+[switch to API](../../../Documentation/ScriptingAPI/en/StepperMotor.cs.md)
 
 
 
 ## Fields
 | Field | Description | Type |
 |--|--|--|
-|StepperType|     The type of stepper motor that changes the operation of the script|StepperMotorType|
-|RotationObject||UnityEngine.GameObject|
-|Hinje||UnityEngine.HingeJoint|
-|StepCount||System.Int32|
-|Start_pos||System.Single|
-|Add_value||System.Single|
-|Time_wait||System.Single|
-|Gizmo_distance||System.Single|
-|Auto_set_distance||System.Boolean|
-|Distance_rot_obj||System.Single|
-|Distance_shaft||System.Single|
-|Side||System.Int32|
-|Delay||System.Int32|
-|gizmo_test||UnityEngine.Vector3|
-|display_pos||System.Single|
+|connectedBody|     Body used as a motor rotor|UnityEngine.GameObject|
+|motorDriver|     Driver connected to motor|StepperDriver|
+|motorAxis|     Represents the motor axis, emanating from origin|UnityEngine.Vector3|
+|isResetMotorAnchor|     Resets MotorAnchor with startMotorAnchor|System.Boolean|
+|motorAnchor|     Represents the Motor Anchor|UnityEngine.Vector3|
+|connectedAnchor|     Represents the anchor for connected body|UnityEngine.Vector3|
+|holdingTorque|     Holding torque|System.Single|
+|torque|     Rotation torque|System.Single|
+|stepAngle|     Step angle|System.Single|
+|maxAngularVelocity|     The maximum value of the angular velocity of rotation of the body attached to the motor shaft. 523 radians per second - default|System.Single|
+|isDrawAnchors|     If True draws anchors|System.Boolean|
 ## Properties
 | Property | Description | Type |
 |--|--|--|
@@ -47,54 +43,6 @@
 |name||System.String|
 |hideFlags||UnityEngine.HideFlags|
 ## Methods
-### SendData
-
-#### Declaration:
-
-#### Returns:
-
-### GetStepAngle
-
-#### Declaration:
-
-#### Returns:
-
-### SetUpHinjeJoint
-
-#### Declaration:
-
-#### Returns:
-
-### SetDeviceName
-
-#### Declaration:
-
-#### Returns:
-
-### GetDeviceName
-
-#### Declaration:
-
-#### Returns:
-
-### SendName
-
-#### Declaration:
-
-#### Returns:
-
-### OnRequest
-
-#### Declaration:
-
-#### Returns:
-
-### ReciveData
-
-#### Declaration:
-
-#### Returns:
-
 ### IsInvoking
 
 #### Declaration:
@@ -564,224 +512,6 @@
 #### Returns:
 
 ### get_particleSystem
-
-#### Declaration:
-
-#### Returns:
-
-### GetInstanceID
-
-#### Declaration:
-
-#### Returns:
-
-### GetHashCode
-
-#### Declaration:
-
-#### Returns:
-
-### Equals
-
-#### Declaration:
-
-#### Returns:
-
-### get_name
-
-#### Declaration:
-
-#### Returns:
-
-### set_name
-
-#### Declaration:
-
-#### Returns:
-
-### get_hideFlags
-
-#### Declaration:
-
-#### Returns:
-
-### set_hideFlags
-
-#### Declaration:
-
-#### Returns:
-
-### ToString
-
-#### Declaration:
-
-#### Returns:
-
-### GetType
-
-#### Declaration:
-
-#### Returns:
-
-# RSMAStepperMotorEditor
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMAStepperMotor.cs.md)
-
-
-
-## Properties
-| Property | Description | Type |
-|--|--|--|
-|target||UnityEngine.Object|
-|targets||UnityEngine.Object[]|
-|serializedObject||UnityEditor.SerializedObject|
-|name||System.String|
-|hideFlags||UnityEngine.HideFlags|
-## Methods
-### OnInspectorGUI
-
-#### Declaration:
-
-#### Returns:
-
-### get_target
-
-#### Declaration:
-
-#### Returns:
-
-### set_target
-
-#### Declaration:
-
-#### Returns:
-
-### get_targets
-
-#### Declaration:
-
-#### Returns:
-
-### get_serializedObject
-
-#### Declaration:
-
-#### Returns:
-
-### DrawDefaultInspector
-
-#### Declaration:
-
-#### Returns:
-
-### Repaint
-
-#### Declaration:
-
-#### Returns:
-
-### CreateInspectorGUI
-
-#### Declaration:
-
-#### Returns:
-
-### RequiresConstantRepaint
-
-#### Declaration:
-
-#### Returns:
-
-### DrawHeader
-
-#### Declaration:
-
-#### Returns:
-
-### HasPreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### GetPreviewTitle
-
-#### Declaration:
-
-#### Returns:
-
-### RenderStaticPreview
-
-#### Declaration:
-
-#### Returns:
-
-### OnPreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### OnInteractivePreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### OnPreviewSettings
-
-#### Declaration:
-
-#### Returns:
-
-### GetInfoString
-
-#### Declaration:
-
-#### Returns:
-
-### DrawPreview
-
-#### Declaration:
-
-#### Returns:
-
-### ReloadPreviewInstances
-
-#### Declaration:
-
-#### Returns:
-
-### UseDefaultMargins
-
-#### Declaration:
-
-#### Returns:
-
-### Initialize
-
-#### Declaration:
-
-#### Returns:
-
-### Cleanup
-
-#### Declaration:
-
-#### Returns:
-
-### MoveNextTarget
-
-#### Declaration:
-
-#### Returns:
-
-### ResetTarget
-
-#### Declaration:
-
-#### Returns:
-
-### SetDirty
 
 #### Declaration:
 
