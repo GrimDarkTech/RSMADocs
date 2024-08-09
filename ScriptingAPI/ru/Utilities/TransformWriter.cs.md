@@ -1,17 +1,15 @@
-# LeverRoller
-[switch to API](../../../Documentation/ScriptingAPI/en/LeverRoller.cs.md)
+# TransformWriter
+[switch to API](../../../Documentation/ScriptingAPI/en/TransformWriter.cs.md)
 
-
+ Implements the recording of formatted data in a csv file
 
 ## Fields
 | Field | Description | Type |
 |--|--|--|
-|AnchorPostion||UnityEngine.Vector3|
-|IsActivatedOnBaseCollider||System.Boolean|
-|ActivationAngle||System.Single|
-|GizmoSize||System.Single|
-|onPressed||UnityEngine.Events.UnityEvent|
-|onReleased||UnityEngine.Events.UnityEvent|
+|name||System.String|
+|targetTransforms||System.Collections.Generic.List`1[TransformWriter+WritableTransform]|
+|isWriting||System.Boolean|
+|timestep||System.Single|
 ## Properties
 | Property | Description | Type |
 |--|--|--|
@@ -38,7 +36,19 @@
 |name||System.String|
 |hideFlags||UnityEngine.HideFlags|
 ## Methods
-### OnDrawGizmosSelected
+### Write
+
+#### Declaration:
+
+#### Returns:
+
+### Stop
+
+#### Declaration:
+
+#### Returns:
+
+### WriteTransforms
 
 #### Declaration:
 
@@ -513,224 +523,6 @@
 #### Returns:
 
 ### get_particleSystem
-
-#### Declaration:
-
-#### Returns:
-
-### GetInstanceID
-
-#### Declaration:
-
-#### Returns:
-
-### GetHashCode
-
-#### Declaration:
-
-#### Returns:
-
-### Equals
-
-#### Declaration:
-
-#### Returns:
-
-### get_name
-
-#### Declaration:
-
-#### Returns:
-
-### set_name
-
-#### Declaration:
-
-#### Returns:
-
-### get_hideFlags
-
-#### Declaration:
-
-#### Returns:
-
-### set_hideFlags
-
-#### Declaration:
-
-#### Returns:
-
-### ToString
-
-#### Declaration:
-
-#### Returns:
-
-### GetType
-
-#### Declaration:
-
-#### Returns:
-
-# LeverRollerEditor
-[switch to API](../../../Documentation/ScriptingAPI/en/LeverRoller.cs.md)
-
-
-
-## Properties
-| Property | Description | Type |
-|--|--|--|
-|target||UnityEngine.Object|
-|targets||UnityEngine.Object[]|
-|serializedObject||UnityEditor.SerializedObject|
-|name||System.String|
-|hideFlags||UnityEngine.HideFlags|
-## Methods
-### OnInspectorGUI
-
-#### Declaration:
-
-#### Returns:
-
-### get_target
-
-#### Declaration:
-
-#### Returns:
-
-### set_target
-
-#### Declaration:
-
-#### Returns:
-
-### get_targets
-
-#### Declaration:
-
-#### Returns:
-
-### get_serializedObject
-
-#### Declaration:
-
-#### Returns:
-
-### DrawDefaultInspector
-
-#### Declaration:
-
-#### Returns:
-
-### Repaint
-
-#### Declaration:
-
-#### Returns:
-
-### CreateInspectorGUI
-
-#### Declaration:
-
-#### Returns:
-
-### RequiresConstantRepaint
-
-#### Declaration:
-
-#### Returns:
-
-### DrawHeader
-
-#### Declaration:
-
-#### Returns:
-
-### HasPreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### GetPreviewTitle
-
-#### Declaration:
-
-#### Returns:
-
-### RenderStaticPreview
-
-#### Declaration:
-
-#### Returns:
-
-### OnPreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### OnInteractivePreviewGUI
-
-#### Declaration:
-
-#### Returns:
-
-### OnPreviewSettings
-
-#### Declaration:
-
-#### Returns:
-
-### GetInfoString
-
-#### Declaration:
-
-#### Returns:
-
-### DrawPreview
-
-#### Declaration:
-
-#### Returns:
-
-### ReloadPreviewInstances
-
-#### Declaration:
-
-#### Returns:
-
-### UseDefaultMargins
-
-#### Declaration:
-
-#### Returns:
-
-### Initialize
-
-#### Declaration:
-
-#### Returns:
-
-### Cleanup
-
-#### Declaration:
-
-#### Returns:
-
-### MoveNextTarget
-
-#### Declaration:
-
-#### Returns:
-
-### ResetTarget
-
-#### Declaration:
-
-#### Returns:
-
-### SetDirty
 
 #### Declaration:
 

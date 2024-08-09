@@ -1,12 +1,19 @@
-# RSMALimitSwitch
-[switch to API](../../../Documentation/ScriptingAPI/en/RSMALimitSwitch.cs.md)
+# WheelSetup
+[switch to API](../../../Documentation/ScriptingAPI/en/WheelSetup.cs.md)
 
 
 
 ## Fields
 | Field | Description | Type |
 |--|--|--|
-|LimitSwitchLever||Switch|
+|Wheel|     |UnityEngine.GameObject|
+|WheelCus|     |BetterVector|
+|MiniWheel|     |UnityEngine.GameObject|
+|MiniWheelCus|     |BetterVector|
+|Angle|     |System.Single|
+|Count|     |System.Int32|
+|Size|     |System.Single|
+|Range|     |System.Single|
 ## Properties
 | Property | Description | Type |
 |--|--|--|
@@ -33,40 +40,10 @@
 |name||System.String|
 |hideFlags||UnityEngine.HideFlags|
 ## Methods
-### SendData
-
+### Update
+     
 #### Declaration:
-
-#### Returns:
-
-### SetDeviceName
-
-#### Declaration:
-
-#### Returns:
-
-### GetDeviceName
-
-#### Declaration:
-
-#### Returns:
-
-### SendName
-
-#### Declaration:
-
-#### Returns:
-
-### OnRequest
-
-#### Declaration:
-
-#### Returns:
-
-### ReciveData
-
-#### Declaration:
-
+    public void Update()
 #### Returns:
 
 ### IsInvoking
