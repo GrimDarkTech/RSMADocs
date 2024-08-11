@@ -1,5 +1,5 @@
 # OmnidirectionalWheel
-[switch to Russian](/ScriptingAPI/ru/OmnidirectionalWheel.cs.md)
+[switch to Russian](/ScriptingAPI/ru/Mechanics/OmnidirectionalWheel.cs.md)
 
  Class for creating and configuring omnidirectional wheels
 

@@ -45,7 +45,8 @@
 |RSMAServo|Реализует свойства и функциональные возможности сервопривода|[Подробнее..](/ScriptingAPI/en/Motors/RSMAServo.cs.md)|
 |StepperMotor|Реализует свойства и функциональные возможности шагового электродвигателя|[Подробнее..](/ScriptingAPI/en/Motors/StepperMotor.cs.md)|
 |StepperDriver|Реализует свойства и функциональные возможности драйвера шагового электродвигателя|[Подробнее..](/ScriptingAPI/en/Electronics/StepperDriver.cs.md)|
-|OmnidirectionalWheel|Класс для создания и настройки всенаправленных колес|[Подробнее..](/ScriptingAPI/ru/OmnidirectionalWheel.cs.md)|
+|OmnidirectionalWheel|Класс для создания и настройки всенаправленных колес|[Подробнее..](/ScriptingAPI/en/OmnidirectionalWheel.cs.md)|
+|LimitSwitch|Реализует свойства и функциональные возможности концевого выключателя|[Подробнее..](/ScriptingAPI/en/Electronics/LimitSwitch.cs.md)|
 
 ## Структуры RSMA
 |Название|Описание|Документация|
