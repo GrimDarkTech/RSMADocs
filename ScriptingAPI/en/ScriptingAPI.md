@@ -35,7 +35,7 @@
 |RSMADataTransferSlave|Реализует свойства и функциональные возможности ведомого устройства в протоколе передачи данных|[Подробнее..](/ScriptingAPI/en/Electronics/Microcontrollers/RSMADataTransferSlave.cs.md)|
 |LightSensorScript|Реализует свойства и функциональные возможности датчика освещенности|[Подробнее..](/ScriptingAPI/en/Electronics/LightSensorScript.cs.md)|
 |RSMADisplay|Реализует свойства и функциональные возможности текстового дисплея|[Подробнее..](/ScriptingAPI/en/Electronics/RSMADisplay.cs.md)|
-|Encoder|Имитирует работу абсолютного и инкрементального энкодера со встроенным счетчиком импульсов|[Подробнее..](/ScriptingAPI/en/Encoder.cs.md)|
+|Encoder|Имитирует работу абсолютного и инкрементального энкодера со встроенным счетчиком импульсов|[Подробнее..](/ScriptingAPI/en/Electronics/Encoder.cs.md)|
 |RSMALED|Реализует свойства и функциональные возможности светодиода|[Подробнее..](/ScriptingAPI/en/Electronics/RSMALED.cs.md)|
 |RSMAMotorDriver|Реализует свойства и функциональные возможности драйвера электродвигателя|[Подробнее..](/ScriptingAPI/en/Electronics/RSMAMotorDriver.cs.md)|
 |RSMARangeFinderBase|Реализует свойства и функциональные возможности лазерного/ультразвукового дальномера|[Подробнее..](/ScriptingAPI/en/Electronics/RSMARangeFinderBase.cs.md)|
@@ -44,7 +44,8 @@
 |RSMAMotor2|Реализует свойства и функциональные возможности электродвигателя|[Подробнее..](/ScriptingAPI/en/Motors/RSMAMotor2.cs.md)|
 |RSMAServo|Реализует свойства и функциональные возможности сервопривода|[Подробнее..](/ScriptingAPI/en/Motors/RSMAServo.cs.md)|
 |StepperMotor|Реализует свойства и функциональные возможности шагового электродвигателя|[Подробнее..](/ScriptingAPI/en/Motors/StepperMotor.cs.md)|
-|StepperDriver|Реализует свойства и функциональные возможности драйвера шагового электродвигателя|[Подробнее..](/ScriptingAPI/en/Motors/StepperDriver.cs.md)|
+|StepperDriver|Реализует свойства и функциональные возможности драйвера шагового электродвигателя|[Подробнее..](/ScriptingAPI/en/Electronics/StepperDriver.cs.md)|
+|OmnidirectionalWheel|Класс для создания и настройки всенаправленных колес|[Подробнее..](/ScriptingAPI/ru/OmnidirectionalWheel.cs.md)|
 
 ## Структуры RSMA
 |Название|Описание|Документация|
