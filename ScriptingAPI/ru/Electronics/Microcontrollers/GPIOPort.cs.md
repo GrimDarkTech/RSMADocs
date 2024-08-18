@@ -1,12 +1,12 @@
 # GPIOPort
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/GPIOPort.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/GPIOPort.cs.md)
 
- Implements properties and functionality of GPIO port
+ Реализует свойства и функциональность порта GPIO
 
-## Fields
-| Field | Description | Type |
+## Поля
+| Поле | Описание | Тип |
 |--|--|--|
-|name|     GPIO port name|System.String|
-|pins||System.Collections.Generic.List`1[GPIOPin]|
+|name|     имя порта GPIO |System.String|
+|pins| Список выводов порта |System.Collections.Generic.List`1[GPIOPin]|
 
 

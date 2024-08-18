@@ -1,5 +1,5 @@
 # RSMAMicrocontroller
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/RSMAMicrocontroller.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/RSMAMicrocontroller.cs.md)
 
-Abstract class.
-Implements the properties and behaviors of AVR/STM-like microcontrollers. Contains GPIO, DataTransferMaster device and controller program
+Абстрактный класс.
+Реализует свойства и поведение микроконтроллеров типа AVR/STM. Содержит GPIO, устройство DataTransferMaster и программу контроллера

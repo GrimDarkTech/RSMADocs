@@ -1,10 +1,10 @@
 # ConnectedPin
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/ConnectedPin.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/ConnectedPin.cs.md)
 
-Structure. Describes GPIO port pin which device is connected
+Структура. Описывает вывод порта GPIO, к которому подключено устройство.
 
-## Fields
-| Field | Description | Type |
+## Поля
+| Поле | Описание | Тип |
 |--|--|--|
-|portName|GPIO port name|System.String|
-|pinName|GPIO port pin name|System.Single|
+|portName|Имя порта GPIO|System.String|
+|pinName|Имя вывода порта GPIO|System.Single|
