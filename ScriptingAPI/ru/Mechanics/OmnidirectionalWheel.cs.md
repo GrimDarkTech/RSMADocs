@@ -1,5 +1,5 @@
 # OmnidirectionalWheel
-[switch to Russian](/ScriptingAPI/ru/Mechanics/OmnidirectionalWheel.cs.md)
+[switch to English](/ScriptingAPI/en/Mechanics/OmnidirectionalWheel.cs.md)
 
  Class for creating and configuring omnidirectional wheels
 
@@ -8,7 +8,7 @@
 |--|--|--|
 |wheel|Wheel object used as the basis for an omnidirectional wheel|UnityEngine.GameObject|
 |wheelRotation|Rotation of the wheel object|UnityEngine.Quaternion|
-|roller|The axis of rotation of the roller|UnityEngine.GameObject|
+|roller|Roller object used to form an omnidirectional wheel|UnityEngine.GameObject|
 |rollerCount|The number of rollers mounted on the wheel|System.Int32|
 |installationRadius|The radius of installation of the rollers|System.Single|
 |additionalRollerRotation|Additional rotation of the rollers object|UnityEngine.Quaternion|

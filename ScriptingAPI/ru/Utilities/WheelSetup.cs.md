@@ -1,4 +1,4 @@
-# WheelSetup
+# WheelSetup (Legacy)
 [switch to API](../../../Documentation/ScriptingAPI/en/WheelSetup.cs.md)
 
 
