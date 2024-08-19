@@ -1,41 +1,41 @@
 # RSMADataTransferSlave
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/RSMADataTransferSlave.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/RSMADataTransferSlave.cs.md)
 
- Implements properties and functionality of slave device in data transfer protocol
+ Реализует свойства и функциональность подчиненного устройства в протоколе передачи данных
 
-## Methods
+## Методы
 ### SetDeviceName
-     Sets device name
-#### Declaration:
+     Задает имя устройства
+#### Объявление:
     public  void SetDeviceName(string deviceName)
-#### Returns:
+#### Возвращает:
 
 ### GetDeviceName
-     Gets device name
-#### Declaration:
+     Получает имя устройства
+#### Объявление:
     public string GetDeviceName()
-#### Returns:
-     Device name
+#### Возвращает:
+     Имя устройства
 ### SendData
-     Returns data
+     Возвращает данные
 #### Declaration:
     public virtual string SendData()
-#### Returns:
-     Data
+#### Возвращает:
+     Данные
 ### SendName
-     Returns device name
-#### Declaration:
+     Возвращает имя устройства
+#### Объявление:
     public virtual string SendName()
 #### Returns:
      
 ### OnRequest
-     Called when master device requests
-#### Declaration:
+     Вызывается по запросу главного устройства
+#### Объявление:
     public virtual void OnRequest()
-#### Returns:
+#### Возвращает:
 
 ### ReciveData
-     Recives data from data bus
-#### Declaration:
+     Получает данные из шины данных
+#### Объявление:
     public virtual void ReciveData(string recivedData)
-#### Returns:
+#### Возвращает:

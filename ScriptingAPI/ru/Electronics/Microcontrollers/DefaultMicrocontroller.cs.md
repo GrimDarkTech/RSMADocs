@@ -1,4 +1,4 @@
 # DefaultMicrocontroller
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/DefaultMicrocontroller.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/DefaultMicrocontroller.cs.md)
 
-Implements the properties and behaviors of AVR/STM-like microcontrollers. When turned on, the PowerLED LED activates
+Реализует свойства и поведение микроконтроллеров типа AVR/STM. При включении активируется светодиод PowerLED

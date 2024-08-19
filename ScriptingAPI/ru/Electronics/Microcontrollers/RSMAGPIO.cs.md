@@ -1,90 +1,90 @@
 # RSMAGPIO
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/RSMAGPIO.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/RSMAGPIO.cs.md)
 
- Implements properties and functionality of GPIO
-
-## Constants
-| Field | Description | Type | Value |
+ Реализует свойства и функциональность GPIO
+ 
+## Константы
+| Поле | Описание | Тип | Значение |
 |--|--|--|--|
-|High|     Constant value of GPIO port pin in active state|System.Single|1|
-|Low|     Constant value of GPIO port pin in inactive state|System.Single|0|
+|High|     Постоянное значение вывода порта GPIO в активном состоянии|System.Single|1|
+|Low|     Постоянное значение вывода порта GPIO в неактивном состоянии|System.Single|0|
 
-## Methods
+## Методы
 ### GetPortList
-     Returns GPIO ports list
-#### Declaration:
+     Возвращает список портов GPIO
+#### Объявление:
     public List<GPIOPort> GetPortList()
-#### Returns:
-     List of ports
+#### Возвращает:
+     Список портов
 ### WritePin
-     Toggles output value of GPIO port pin
-#### Declaration:
+     Переключает выходное значение вывода порта GPIO
+#### Объявление:
     public void WritePin(string portName, int pinIndex, float value)
-#### Returns:
+#### Возвращает:
 
 ### WritePin
-     Toggles output value of GPIO port pin
-#### Declaration:
+     Переключает выходное значение вывода порта GPIO
+#### Объявление:
     public void WritePin(string portName, int pinIndex, float value)
-#### Returns:
+#### Возвращает:
 
 ### WritePin
-     Toggles output value of GPIO port pin
-#### Declaration:
+     Переключает выходное значение вывода порта GPIO
+#### Объявление:
     public void WritePin(string portName, int pinIndex, float value)
-#### Returns:
+#### Возвращает:
 
 ### WritePin
-     Toggles output value of GPIO port pin
-#### Declaration:
+     Переключает выходное значение вывода порта GPIO
+#### Объявление:
     public void WritePin(string portName, int pinIndex, float value)
-#### Returns:
+#### Возвращает:
 
 ### GetPin
      Gets GPIO port pin object by ConnectedPin enum
-#### Declaration:
+#### Объявление:
     public GPIOPin GetPin(ConnectedPin connectedPin)
-#### Returns:
-     Returns GPIOPin ref if it exists, else returns null
+#### Возвращает:
+     Возвращает ссылку на вывод GPIO, если он существует, иначе возвращает null
 ### GetPin
      Gets GPIO port pin object by ConnectedPin enum
-#### Declaration:
+#### Объявление:
     public GPIOPin GetPin(ConnectedPin connectedPin)
-#### Returns:
-     Returns GPIOPin ref if it exists, else returns null
+#### Возвращает:
+     Возвращает ссылку на вывод GPIO, если он существует, иначе возвращает null
 ### ResetAll
-     Sets default GPIO ports pins values
-#### Declaration:
+     Устанавливает значения контактов портов GPIO по умолчанию
+#### Объявление:
     public void ResetAll()
-#### Returns:
+#### Возвращает:
 
 ### TurnOffAll
-     Sets GPIO ports pins values to 0
-#### Declaration:
+     Устанавливает значения контактов портов GPIO равными 0
+#### Объявление:
     public void TurnOffAll()
-#### Returns:
+#### Возвращает:
 
 ### ReadPin
-     Read input value of GPIO port pin 
-#### Declaration:
+     Считать входное значение контакта порта GPIO 
+#### Объявление:
     public float ReadPin(string portName, int pinIndex)
-#### Returns:
-     Returns float GPIO port pin value
+#### Возвращает:
+     Возвращает float значение контакта порта GPIO
 ### ReadPin
-     Read input value of GPIO port pin 
-#### Declaration:
+     Считать входное значение контакта порта GPIO
+#### Объявление:
     public float ReadPin(string portName, int pinIndex)
-#### Returns:
-     Returns float GPIO port pin value
+#### Возвращает:
+     Возвращает float значение контакта порта GPIO
 ### ReadPin
-     Read input value of GPIO port pin 
-#### Declaration:
+     Считать входное значение контакта порта GPIO 
+#### Объявление:
     public float ReadPin(string portName, int pinIndex)
-#### Returns:
-     Returns float GPIO port pin value
+#### Возвращает:
+     Возвращает float значение контакта порта GPIO
 ### ReadPin
-     Read input value of GPIO port pin 
-#### Declaration:
+     Считать входное значение контакта порта GPIO
+#### Объявление:
     public float ReadPin(string portName, int pinIndex)
-#### Returns:
-     Returns float GPIO port pin value
+#### Возвращает:
+     Возвращает float значение контакта порта GPIO

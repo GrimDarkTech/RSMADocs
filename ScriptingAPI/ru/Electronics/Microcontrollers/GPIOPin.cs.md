@@ -1,14 +1,14 @@
 # GPIOPin
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/GPIOPin.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/GPIOPin.cs.md)
 
- Implements properties and functionality of GPIO port pin
+ Реализует свойства и функциональность вывода порта GPIO
 
-## Fields
-| Field | Description | Type |
+## Поля
+| Поле | Описание | Тип |
 |--|--|--|
-|name|     GPIO port pin name|System.String|
-|value|     GPIO port pin state|System.Single|
-|pinMode|     GPIO port pin mode|PinModes|
-|pinPullMode|     GPIO port pin pull-up/pull-down resistor mode|PinPullModes|
-|outputDefaulValue|     GPIO port pin output default state         |System.Single|
-|pinOutputMode|     GPIO port pin output mode       |PinOutputModes|
+|name|     имя вывода порта GPIO|System.String|
+|value|     Состояние вывода порта GPIO |System.Single|
+|pinMode|     Режим вывода порта GPIO |PinModes|
+|pinPullMode|     Режим подтягивающего резистора выводов порта GPIO |PinPullModes|
+|outputDefaulValue|     Состояние вывода порта GPIO по умолчанию |System.Single|
+|pinOutputMode|     Режим вывода порта GPIO       |PinOutputModes|

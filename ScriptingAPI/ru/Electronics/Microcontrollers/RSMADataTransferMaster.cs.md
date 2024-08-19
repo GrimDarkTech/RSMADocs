@@ -1,35 +1,35 @@
 # RSMADataTransferMaster
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/RSMADataTransferMaster.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/RSMADataTransferMaster.cs.md)
 
- Implements properties and functionality of master device in data transfer protocol
+ Реализует свойства и функциональность главного устройства в протоколе передачи данных
 
-## Fields
-| Field | Description | Type |
+## Поля
+| Поле | Описание | Тип |
 |--|--|--|
-|dataBus|     List of devices connected to master device via the data bus|System.Collections.Generic.List`1[RSMADataTransferSlave]|
-|data|     Requests name of target device|System.String|
+|dataBus|     Список устройств, подключенных к главному устройству по шине передачи данных|System.Collections.Generic.List`1[RSMADataTransferSlave]|
+|data|     Запрашивает имя целевого устройства|System.String|
 
-## Methods
+## Методы
 ### SendData
-     Sends data to target device
-#### Declaration:
+     Отправляет данные на целевое устройство
+#### Объявление:
     public virtual void SendData(int targetAddress)
-#### Returns:
+#### Возвращает:
 
 ### ReciveData
-     Recives data from target device
-#### Declaration:
+     Получает данные с целевого устройства
+#### Объявление:
     public virtual void ReciveData(int targetAddress)
-#### Returns:
+#### Возвращает:
 
 ### Request
-     Requests name of target device
-#### Declaration:
+     Запрашивает имя целевого устройства
+#### Объявление:
     public virtual void RequestName(int targetAddress)
-#### Returns:
+#### Возвращает:
 
 ### RequestName
-     Requests name of target device
-#### Declaration:
+     Запрашивает имя целевого устройства
+#### Объявление:
     public virtual void RequestName(int targetAddress)
-#### Returns:
+#### Возвращает:

@@ -1,17 +1,17 @@
 # IMicrocontollerProgram
-[switch to Russian](/ScriptingAPI/ru/Electronics/Microcontrollers/MicrocontrollerInterfaces.cs.md)
+[switch to English](/ScriptingAPI/en/Electronics/Microcontrollers/MicrocontrollerInterfaces.cs.md)
 
-Interface. Implements behavior and properties of microcontroller program
+Интерфейс. Реализует поведение и свойства программы микроконтроллера.
 
-## Properties
-| Field | Description | Type |
+## Поля
+| Поле | Описание | Тип |
 |--|--|--|
-|GPIO|Microcontroller GPIO|RSMAGPIO|
-|dataBus|Microcontroller databus for data transfer protocols|RSMADataTransferMaster|
+|GPIO|GPIO микроконтроллера|RSMAGPIO|
+|dataBus| шина данных микроконтроллера для протоколов передачи данных|RSMADataTransferMaster|
 
-## Methods
+## Методы
 
 ### MainProgramm
-Entry point to microcontroller program
-#### Declaration:
+Точка входа в программу микроконтроллера
+#### Объявление:
 public IEnumerator MainProgramm()
