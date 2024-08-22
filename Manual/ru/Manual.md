@@ -41,7 +41,7 @@
 |||
 |--|--|
 |![](/Manual/_images/Icons/Microcontroller.png)|![](/Manual/_images/Icons/Encoder.png)|
-|Микроконтроллеры|Абсолютные и инкрементальные энкодеры|
+|[Микроконтроллеры](/Manual/ru/Electronics/Setting_up_microcontrollers.md)|Абсолютные и инкрементальные энкодеры|
 |![](/Manual/_images/Icons/LightSensor.png)|![](/Manual/_images/Icons/Switch.png)|
 |Датчики освещенности|Концевые выключатели|
 |![](/Manual/_images/Icons/Display.png)|![](/Manual/_images/Icons/LED.png)|
