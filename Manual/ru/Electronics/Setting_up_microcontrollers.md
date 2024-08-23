@@ -57,7 +57,7 @@
 
 В окне "Inspector" используйте кнопку "Add Component" для поиска и добавления компонента микроконтроллера RSMALED (рис. 9).\
 ![](/Manual/_images/Setting_up_microcontrollers/AddLed.png)\
-Рисунок 9 – Добавление компонента DefaultMicrocontroller в окне "Inspector"
+Рисунок 9 – Добавление компонента RSMALED в окне "Inspector"
 
 Если компонент был успешно добавлен, он и компонент Light отобразятся в окне инспектора (рис. 10).\
 ![](/Manual/_images/Setting_up_microcontrollers/LedAdded.png)\

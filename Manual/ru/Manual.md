@@ -45,7 +45,7 @@
 |![](/Manual/_images/Icons/LightSensor.png)|![](/Manual/_images/Icons/Switch.png)|
 |[Датчики освещенности](/Manual/ru/Electronics/Setting_up_light_sensors.md)|[Концевые выключатели](/Manual/ru/Electronics/Setting_up_switches.md)|
 |![](/Manual/_images/Icons/Display.png)|![](/Manual/_images/Icons/LED.png)|
-|Текстовые дисплеи|Cветодиоды|
+|[Текстовые дисплеи](/Manual/ru/Electronics/Setting_up_display.md)|[Cветодиоды](/Manual/ru/Electronics/Setting_up_leds.md)|
 |![](/Manual/_images/Icons/Rangefinder.png)|![](/Manual/_images/Icons/Driver.png)|
 |Дальномеры|Драйверы электродвигателя|
 
