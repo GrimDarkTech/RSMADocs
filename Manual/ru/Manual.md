@@ -43,7 +43,7 @@
 |![](/Manual/_images/Icons/Microcontroller.png)|![](/Manual/_images/Icons/Encoder.png)|
 |[Микроконтроллеры](/Manual/ru/Electronics/Setting_up_microcontrollers.md)|[Абсолютные и инкрементальные энкодеры](/Manual/ru/Electronics/Setting_up_encoders.md)|
 |![](/Manual/_images/Icons/LightSensor.png)|![](/Manual/_images/Icons/Switch.png)|
-|Датчики освещенности|Концевые выключатели|
+|[Датчики освещенности](/Manual/ru/Electronics/Setting_up_light_sensors.md)|[Концевые выключатели](/Manual/ru/Electronics/Setting_up_switches.md)|
 |![](/Manual/_images/Icons/Display.png)|![](/Manual/_images/Icons/LED.png)|
 |Текстовые дисплеи|Cветодиоды|
 |![](/Manual/_images/Icons/Rangefinder.png)|![](/Manual/_images/Icons/Driver.png)|
