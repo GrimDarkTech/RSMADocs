@@ -47,7 +47,7 @@
 |![](/Manual/_images/Icons/Display.png)|![](/Manual/_images/Icons/LED.png)|
 |[Текстовые дисплеи](/Manual/ru/Electronics/Setting_up_display.md)|[Cветодиоды](/Manual/ru/Electronics/Setting_up_leds.md)|
 |![](/Manual/_images/Icons/Rangefinder.png)|![](/Manual/_images/Icons/Driver.png)|
-|Дальномеры|Драйверы электродвигателя|
+|[Дальномеры](/Manual/ru/Electronics/Setting_up_rangefinders.md)|[Драйверы электродвигателя](/Manual/ru/Electronics/Setting_up_motor_drivers.md)|
 
 ## Моделирование электродвигателей
 |||

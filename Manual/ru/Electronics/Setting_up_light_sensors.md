@@ -14,22 +14,22 @@
 
 ## Подготовка объектов
 
-Поместите объект датчика на сцену Unity (рис. 1).
-![](/Manual/_images/Setting_up_light_sensors/Object.png)
+Поместите объект датчика на сцену Unity (рис. 1).\
+![](/Manual/_images/Setting_up_light_sensors/Object.png)\
 Рисунок 1 – Настраиваемый объект
 
 ## Добавление компонента LightSensorScript
 
-В окне "Hierarchy" выберите объект датчика (рис. 2).
-![](/Manual/_images/Setting_up_light_sensors/Selected.png)
+В окне "Hierarchy" выберите объект датчика (рис. 2).\
+![](/Manual/_images/Setting_up_light_sensors/Selected.png)\
 Рисунок 2 – Выбран TSL2561
 
-В окне "Inspector" используйте кнопку "Add Component" для поиска и добавления компонента LightSensorScript (рис. 3).
-![img](/Manual/_images/Setting_up_light_sensors/AddComponent.png)
+В окне "Inspector" используйте кнопку "Add Component" для поиска и добавления компонента LightSensorScript (рис. 3).\
+![img](/Manual/_images/Setting_up_light_sensors/AddComponent.png)\
 Рисунок 3 – Добавление компонента LightSensorScript в окне "Inspector"
 
-Если компонент был успешно добавлен, он отобразится в окне инспектора (рис. 4).
-![](/Manual/_images/Setting_up_light_sensors/Component.png)
+Если компонент был успешно добавлен, он отобразится в окне инспектора (рис. 4).\
+![](/Manual/_images/Setting_up_light_sensors/Component.png)\
 Рисунок 4 –  Компонент в окне "Inspector"
 
 ## Настройка компонента LightSensorScript
