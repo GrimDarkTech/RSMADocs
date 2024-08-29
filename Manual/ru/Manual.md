@@ -53,7 +53,7 @@
 |||
 |--|--|
 |![](/Manual/_images/Icons/Motor.png)|![](/Manual/_images/Icons/Stepper.png)|
-|Электродвигатели постоянного/переменного тока|Шаговый электродвигатель|
+|[Электродвигатели постоянного/переменного тока](/Manual/ru/Motors/Setting_up_motors.md)|[Шаговый электродвигатель](/Manual/ru/Motors/Setting_up_stepper_motors.md)|
 |![](/Manual/_images/Icons/Servo.png)||
-|Сервопривод||
+|[Сервопривод](/Manual/ru/Motors/Setting_up_servos.md)||
 
